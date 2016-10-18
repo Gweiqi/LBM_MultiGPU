@@ -1,0 +1,64 @@
+number of GPUs: 1
+Pitch (in elements): 2048
+0.498073
+Base domain size 	1056x160x32
+Base blocksize: 	64x1x1
+Obst1 location: 	(112.5,80.5,32.5)
+Obst1 radius: 	16
+Obst2 location: 	(319.5,511.5,31.5)
+Obst2 radius: 	32
+RE: 	3000
+UMAX: 	0.06
+omega 	: 1.99235
+TMAX: 	2000
+STARTF: 	0
+START_VELAV: 	10000
+START_VELFLUC: 	15000
+REFINEMENT: 	0
+MODEL: 	MRT
+Smagorinsky LES: 	1
+CS: 	0.02
+LR domain size 	128x128x8
+LR factor 	0.5
+LR location 	80.25x48.25x-0.75
+LR blocksize: 	64x1x1
+omega in LR 	: 1.98476
+GPUs per node 	: 1
+LR Pitch (in elements): 128
+Interp Pitch (in elements): 128
+16, 64, 4
+Device memory used for dev0 : 1.03748 GB
+Device memory available for dev0 : 0.035414 GB
+Time taken for main kernel: 0.032588 (331823MLUPS)
+number of GPUs: 1
+Pitch (in elements): 2048
+0.498073
+Base domain size 	1056x160x32
+Base blocksize: 	64x1x1
+Obst1 location: 	(112.5,80.5,32.5)
+Obst1 radius: 	16
+Obst2 location: 	(319.5,511.5,31.5)
+Obst2 radius: 	32
+RE: 	3000
+UMAX: 	0.06
+omega 	: 1.99235
+TMAX: 	2000
+STARTF: 	0
+START_VELAV: 	10000
+START_VELFLUC: 	15000
+REFINEMENT: 	0
+MODEL: 	MRT
+Smagorinsky LES: 	1
+CS: 	0.02
+LR domain size 	128x128x8
+LR factor 	0.5
+LR location 	80.25x48.25x-0.75
+LR blocksize: 	64x1x1
+omega in LR 	: 1.98476
+GPUs per node 	: 1
+LR Pitch (in elements): 128
+Interp Pitch (in elements): 128
+16, 64, 4
+Device memory used for dev0 : 1.03748 GB
+Device memory available for dev0 : 0.035414 GB
+Time taken for main kernel: 0.030282 (357091MLUPS)

@@ -1,0 +1,10 @@
+#! /bin/bash
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x20ob6.log  ./x20ob6.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x20ob8.log  ./x20ob8.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x20ob10.log ./x20ob10.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x25ob6.log  ./x25ob6.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x25ob8.log  ./x25ob8.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x25ob10.log ./x25ob10.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x30ob6.log  ./x30ob6.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x30ob8.log  ./x30ob8.out
+sqsub -v --gpp=2 -n1 -N1 -q gpu --mpp=8G -r 2d -o ./x30ob10.log ./x30ob10.out

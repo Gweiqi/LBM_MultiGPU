@@ -1,0 +1,8 @@
+#!MC 1120
+# Created by Tecplot Focus build 11.2-0-563
+$!ALTERDATA 
+  EQUATION = '{vort_k}=ddx({v})-ddy({u})'
+$!ALTERDATA 
+  EQUATION = '{vort_i}=ddy({w})-ddz({v})'
+$!ALTERDATA 
+  EQUATION = '{vort_j}=ddz({u})-ddx({w})'

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<session version="1" name="test" hscale="1.407981839599145E-7">
+<executable file="/home/yusuke/GPGPU/MyProjects/3DTextLBM3/a.out"><envs></envs></executable>
+<expert><columnprops><column kind="BLOCK_SIZE" width="77"/><column kind="GRID_SIZE" width="68"/><column kind="DURATION" width="76"/><column kind="NAME" width="1565"/><column kind="START_TIME" width="84"/><column kind="BYTE_SIZE" width="41"/></columnprops>
+<columnorder><column kind="NAME"/><column kind="START_TIME"/><column kind="DURATION"/><column kind="GRID_SIZE"/><column kind="BLOCK_SIZE"/><column kind="REGS_PER_THREAD"/><column kind="STAT_SHARED_MEM"/><column kind="DYNA_SHARED_MEM"/><column kind="BYTE_SIZE"/><column kind="THROUGHPUT"/><column kind="EMPTY"/></columnorder>
+</expert>
+<analysis><visitedstages><stage name="TIMELINE"/></visitedstages></analysis>
+<vruler width="200"/>
+<hruler roiEnable="false"/>
+<timelinestate>
+<timeline pathname="25184" kind="PROCESS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="25184/-1110919392" kind="THREAD" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="25184/-1110919392/Runtime API" kind="RUNTIME" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="25184/-1110919392/Driver API" kind="DRIVER" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti" kind="DEVICE" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1" kind="CONTEXT" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/MemCpy (HtoD)" kind="MEMCPY_HTOD" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/MemCpy (DtoH)" kind="MEMCPY_DTOH" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/Compute" kind="KERNELS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/Compute/_Z12mrt_d_singlePfS_Piffiiim" kind="KERNEL" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/Compute/_Z17initialize_singlePfiiim" kind="KERNEL" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/Streams" kind="STREAMS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 550 Ti/1/Streams/1" kind="STREAM" containerstate="OPEN_ALL" filtered="false"/>
+</timelinestate>
+<pdm>
+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</pdm>
+</session>

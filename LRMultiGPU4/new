@@ -1,0 +1,9 @@
+    float cx = -((u_x8-u_x7+u_x6-u_x5+u_x4-u_x3+u_x2-u_x1))*0.03125f;
+    float cy = -((Sxy8+Sxy7-Sxy6-Sxy5+Sxy4+Sxy3-Sxy2-Sxy1)-m75+m65+m55-m45-m35+m25+m15-m05)*0.0625f;
+    float cz = -((Sxz8+Sxz7+Sxz6+Sxz5-Sxz4-Sxz3-Sxz2-Sxz1)-m77+m67-m57+m47+m37-m27+m17-m07)*0.0625f;
+    float dx = -((Sxy8-Sxy7+Sxy6-Sxy5+Sxy4-Sxy3+Sxy2-Sxy1)-m73+m63+m53-m43-m33+m23+m13-m03)*0.0625f;
+    float dy = -((v_y8+v_y7-v_y6-v_y5+v_y4+v_y3-v_y2-v_y1))*0.03125f;
+    float dz = -((Syz8+Syz7+Syz6+Syz5-Syz4-Syz3-Syz2-Syz1)-m77-m67+m57+m47+m37+m27-m17-m07)*0.0625f;
+    float ex = -((Sxz8-Sxz7+Sxz6-Sxz5+Sxz4-Sxz3+Sxz2-Sxz1)-m73+m63-m53+m43+m33-m23+m13-m03)*0.0625f;
+    float ey = -((Syz8+Syz7-Syz6-Syz5+Syz4+Syz3-Syz2-Syz1)-m75-m65+m55+m45+m35+m25-m15-m05)*0.0625f;
+    float ez = -((w_z8+w_z7+w_z6+w_z5-w_z4-w_z3-w_z2-w_z1))*0.03125f;

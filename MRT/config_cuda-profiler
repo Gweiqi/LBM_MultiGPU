@@ -1,0 +1,15 @@
+gridsize
+#gpustarttimestamp
+#gpuendtimestamp
+#timestamp
+#regperthread
+#memtransfersize
+#countermodeaggregate
+#l1_global_load_hit
+#l1_global_load_miss
+divergent_branch
+
+#tex0_cache_sector_queries
+#tex1_cache_sector_queries
+#tex0_cache_sector_misses
+#tex1_cache_sector_misses

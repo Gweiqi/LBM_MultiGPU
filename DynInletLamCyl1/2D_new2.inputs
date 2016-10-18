@@ -1,0 +1,23 @@
+Base domain size 	64x260x4
+Base blocksize: 	64x1x1
+Obst1 location: 	(20.5,60.5,32.5)
+Obst1 radius: 	5
+Obst2 location: 	(20.5,22.5,32.5)
+Obst2 radius: 	5
+RE: 	100
+UMAX: 	0.04
+omega 	: 1.95312
+TMAX: 	50000
+STARTF: 	0
+START_VELAV: 	500000
+START_VELFLUC: 	1000000
+REFINEMENT: 	0
+MODEL: 	MRT
+Smagorinsky LES: 	0
+CS: 	0
+LR domain size 	128x80x8
+LR factor 	0.5
+LR location 	128.25x64.25x-0.75
+LR blocksize: 	64x1x1
+omega in LR 	: 1.9084
+GPUs per node 	: 1

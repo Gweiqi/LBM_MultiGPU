@@ -1,0 +1,10 @@
+*.pdf
+*.dat
+*.frc
+*.res
+*.log
+*.vel
+*.force
+*.plt
+*.out
+*.png
